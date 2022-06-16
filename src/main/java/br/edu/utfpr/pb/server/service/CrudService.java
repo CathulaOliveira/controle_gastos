@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.service;
+package br.edu.utfpr.pb.pw26s.server.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

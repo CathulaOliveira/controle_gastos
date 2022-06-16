@@ -1,6 +1,6 @@
-package br.edu.utfpr.pb.server.service.impl;
+package br.edu.utfpr.pb.pw26s.server.service.impl;
 
-import br.edu.utfpr.pb.server.service.CrudService;
+import br.edu.utfpr.pb.pw26s.server.service.CrudService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;

@@ -1,6 +1,6 @@
-package br.edu.utfpr.pb.server.model;
+package br.edu.utfpr.pb.pw26s.server.model;
 
-import br.edu.utfpr.pb.server.annotation.UniqueUsername;
+import br.edu.utfpr.pb.pw26s.server.annotation.UniqueUsername;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;

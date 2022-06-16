@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.model;
+package br.edu.utfpr.pb.pw26s.server.model;
 
 
 import lombok.Data;

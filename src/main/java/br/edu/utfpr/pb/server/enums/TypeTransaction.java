@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.enums;
+package br.edu.utfpr.pb.pw26s.server.enums;
 
 public enum TypeTransaction {
 

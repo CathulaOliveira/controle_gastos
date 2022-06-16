@@ -1,8 +1,8 @@
-package br.edu.utfpr.pb.server.service.impl;
+package br.edu.utfpr.pb.pw26s.server.service.impl;
 
-import br.edu.utfpr.pb.server.model.Product;
-import br.edu.utfpr.pb.server.repository.ProductRepository;
-import br.edu.utfpr.pb.server.service.ProductService;
+import br.edu.utfpr.pb.pw26s.server.model.Product;
+import br.edu.utfpr.pb.pw26s.server.repository.ProductRepository;
+import br.edu.utfpr.pb.pw26s.server.service.ProductService;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 

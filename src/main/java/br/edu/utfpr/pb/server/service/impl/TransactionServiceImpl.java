@@ -1,9 +1,9 @@
-package br.edu.utfpr.pb.server.service.impl;
+package br.edu.utfpr.pb.pw26s.server.service.impl;
 
-import br.edu.utfpr.pb.server.enums.TypeTransaction;
-import br.edu.utfpr.pb.server.model.Transaction;
-import br.edu.utfpr.pb.server.repository.TransactionRepository;
-import br.edu.utfpr.pb.server.service.TransactionService;
+import br.edu.utfpr.pb.pw26s.server.enums.TypeTransaction;
+import br.edu.utfpr.pb.pw26s.server.model.Transaction;
+import br.edu.utfpr.pb.pw26s.server.repository.TransactionRepository;
+import br.edu.utfpr.pb.pw26s.server.service.TransactionService;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 

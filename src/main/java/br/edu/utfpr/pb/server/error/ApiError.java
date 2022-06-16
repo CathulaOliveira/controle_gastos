@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.error;
+package br.edu.utfpr.pb.pw26s.server.error;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

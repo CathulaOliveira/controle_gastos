@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.security;
+package br.edu.utfpr.pb.pw26s.server.security;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.AuthenticationException;

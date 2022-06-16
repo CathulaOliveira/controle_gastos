@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.error;
+package br.edu.utfpr.pb.pw26s.server.error;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;

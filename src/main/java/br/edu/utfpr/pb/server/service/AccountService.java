@@ -1,6 +1,6 @@
-package br.edu.utfpr.pb.server.service;
+package br.edu.utfpr.pb.pw26s.server.service;
 
-import br.edu.utfpr.pb.server.model.Account;
+import br.edu.utfpr.pb.pw26s.server.model.Account;
 
 public interface AccountService extends CrudService<Account, Long> {
 }

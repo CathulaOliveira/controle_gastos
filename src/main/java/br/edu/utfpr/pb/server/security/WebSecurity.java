@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.security;
+package br.edu.utfpr.pb.pw26s.server.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

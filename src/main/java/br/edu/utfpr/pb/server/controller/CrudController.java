@@ -1,6 +1,6 @@
-package br.edu.utfpr.pb.server.controller;
+package br.edu.utfpr.pb.pw26s.server.controller;
 
-import br.edu.utfpr.pb.server.service.CrudService;
+import br.edu.utfpr.pb.pw26s.server.service.CrudService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;

@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.shared;
+package br.edu.utfpr.pb.pw26s.server.shared;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

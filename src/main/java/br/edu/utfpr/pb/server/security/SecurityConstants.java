@@ -1,4 +1,4 @@
-package br.edu.utfpr.pb.server.security;
+package br.edu.utfpr.pb.pw26s.server.security;
 
 public class SecurityConstants {
 

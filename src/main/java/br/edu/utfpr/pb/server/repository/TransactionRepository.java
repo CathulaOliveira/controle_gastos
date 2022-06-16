@@ -1,7 +1,7 @@
-package br.edu.utfpr.pb.server.repository;
+package br.edu.utfpr.pb.pw26s.server.repository;
 
-import br.edu.utfpr.pb.server.enums.TypeTransaction;
-import br.edu.utfpr.pb.server.model.Transaction;
+import br.edu.utfpr.pb.pw26s.server.enums.TypeTransaction;
+import br.edu.utfpr.pb.pw26s.server.model.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

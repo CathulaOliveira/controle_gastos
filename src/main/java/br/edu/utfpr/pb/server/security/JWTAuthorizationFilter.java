@@ -1,6 +1,6 @@
-package br.edu.utfpr.pb.server.security;
+package br.edu.utfpr.pb.pw26s.server.security;
 
-import br.edu.utfpr.pb.server.model.User;
+import br.edu.utfpr.pb.pw26s.server.model.User;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import org.springframework.context.ApplicationContext;

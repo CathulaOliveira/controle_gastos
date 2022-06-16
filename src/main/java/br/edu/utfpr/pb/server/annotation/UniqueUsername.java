@@ -1,6 +1,6 @@
-package br.edu.utfpr.pb.server.annotation;
+package br.edu.utfpr.pb.pw26s.server.annotation;
 
-import br.edu.utfpr.pb.server.validator.UniqueUsernameValidator;
+import br.edu.utfpr.pb.pw26s.server.validator.UniqueUsernameValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
