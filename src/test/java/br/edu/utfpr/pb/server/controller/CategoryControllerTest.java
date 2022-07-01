@@ -1,11 +1,11 @@
-package br.edu.utfpr.pb.server;
+package br.edu.utfpr.pb.pw26s.server.controller;
 
-import br.edu.utfpr.pb.server.model.Category;
-import br.edu.utfpr.pb.server.model.User;
-import br.edu.utfpr.pb.server.repository.CategoryRepository;
-import br.edu.utfpr.pb.server.repository.UserRepository;
-import br.edu.utfpr.pb.server.security.AuthenticationResponse;
-import br.edu.utfpr.pb.server.service.UserService;
+import br.edu.utfpr.pb.pw26s.server.model.Category;
+import br.edu.utfpr.pb.pw26s.server.model.User;
+import br.edu.utfpr.pb.pw26s.server.repository.CategoryRepository;
+import br.edu.utfpr.pb.pw26s.server.repository.UserRepository;
+import br.edu.utfpr.pb.pw26s.server.security.AuthenticationResponse;
+import br.edu.utfpr.pb.pw26s.server.service.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,6 @@ public class CategoryControllerTest {
 
     @Autowired
     TestRestTemplate testRestTemplate;
-
     @Autowired
     CategoryRepository categoryRepository;
     @Autowired

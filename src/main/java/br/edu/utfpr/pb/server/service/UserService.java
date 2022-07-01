@@ -12,10 +12,10 @@ import java.util.Optional;
 @Service
 public class UserService {
 
-    UserRepository userRepository;
+    private final UserRepository userRepository;
     BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    public UserService (UserRepository userRepository) {
+    public UserService (@Autowired UserRepository userRepository) {
         this.userRepository = userRepository;
         bCryptPasswordEncoder = new BCryptPasswordEncoder();
     }
@@ -28,6 +28,10 @@ public class UserService {
     public User getUserLogged() {
         String userName = (String) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         return userRepository.findByUsername(userName);
+    }
+
+    public void deleteAll() {
+        userRepository.deleteAll();
     }
 
 }

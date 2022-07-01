@@ -1,9 +1,9 @@
-package br.edu.utfpr.pb.server;
+package br.edu.utfpr.pb.pw26s.server.controller;
 
-import br.edu.utfpr.pb.server.error.ApiError;
-import br.edu.utfpr.pb.server.model.User;
-import br.edu.utfpr.pb.server.repository.UserRepository;
-import br.edu.utfpr.pb.server.shared.GenericResponse;
+import br.edu.utfpr.pb.pw26s.server.error.ApiError;
+import br.edu.utfpr.pb.pw26s.server.model.User;
+import br.edu.utfpr.pb.pw26s.server.repository.UserRepository;
+import br.edu.utfpr.pb.pw26s.server.shared.GenericResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -176,7 +176,7 @@ public class UserControllerTest {
         userRepository.save(createValidUser());
         ResponseEntity<ApiError> response = postSignup(createValidUser(), ApiError.class);
         Map<String, String> validationErrors = response.getBody().getValidationErrors();
-        assertThat(validationErrors.get("username")).isEqualTo("Username has already been used");
+        assertThat(validationErrors.get("username")).isEqualTo("Esse usuário já existe");
     }
 
 

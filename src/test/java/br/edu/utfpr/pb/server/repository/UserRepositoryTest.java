@@ -1,7 +1,6 @@
-package br.edu.utfpr.pb.server;
+package br.edu.utfpr.pb.pw26s.server.repository;
 
-import br.edu.utfpr.pb.server.model.User;
-import br.edu.utfpr.pb.server.repository.UserRepository;
+import br.edu.utfpr.pb.pw26s.server.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
