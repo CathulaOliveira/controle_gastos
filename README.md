@@ -1,4 +1,4 @@
-# Controle financeiro
+# Controle de gastos
 
 ## Trabalho final da disciplina de OO2
 
